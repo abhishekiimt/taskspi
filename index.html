@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="" />
+    <title>Home Page</title>
+</head>
+
+<body>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: rebeccapurple;
+            height: 100vh;
+            width: 90%;
+            margin: 0px auto;
+            display: flex;
+            flex-flow: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            padding: 4rem;
+            color: #fff;
+            background: rgb(164, 104, 224);
+            border-radius: 10px;
+        }
+        .container h1,
+        .container p{
+            padding: 10px 0px;
+        }
+        .container a{
+            background: rgb(26, 7, 199);
+            padding: 8px;
+            color: rgb(245, 246, 250);
+            margin: 20px 0px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .container a:hover{
+            background: rgb(10, 108, 201);
+            border-radius: 5px;
+            padding: 10px 20px;
+        }
+
+    </style>
+    <div class="container">
+        <h1>Hello World!</h1>
+        <p>This is the Website where you find the blog api data</p>
+        <code>
+            <p>some routes</p>
+            https://blogssapi.herokuapp.com/api/auth/register
+            https://blogssapi.herokuapp.com/api/auth/login
+            https://blogssapi.herokuapp.com/api/posts/
+        </code>
+    </div>
+</body>
+
+</html>
